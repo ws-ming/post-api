@@ -13,7 +13,8 @@
 		"webshaper/core": "dev-master"
 	},
     "require-dev": {
-        "way/generators": "2.*"
+        "way/generators": "2.*",
+        "phpunit/phpunit": "4.0.*"
     },
 	"autoload": {
 		"classmap": [
@@ -23,7 +24,10 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php"
-		]
+		],
+        "psr-4":{
+            "pos\\": "app/pos"
+        }
 	},
 	"scripts": {
 		"post-install-cmd": [

@@ -12,7 +12,7 @@ class CreateSubscriberTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('subscriber', function(Blueprint $table)
+		Schema::create('subscribers', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string('store_url')->index();

@@ -121,7 +121,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Webshaper\Commons\CommonsServiceProvider',
+		'Webshaper\Core\CoreServiceProvider',
         'Way\Generators\GeneratorsServiceProvider',
 	),
 
